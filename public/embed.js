@@ -15,7 +15,7 @@
 (function() {
     // Configuration options
     const config = {
-        iframeUrl: 'https://chat-interface-nine.vercel.app/embed',
+        iframeUrl: 'https://agent-auto-nort-front.vercel.app/embed',
         apiUrl: null,
         clientId: null,
         defaultPosition: 'bottom-right',
