@@ -50,7 +50,7 @@ export default function ChatSupport() {
     const [messages, setMessages] = useState<ChatMessage[]>([
         {
             role: "ai",
-            content: "  ¡Hola! Soy tu asistente virtual. ¿En qué te puedo ayudar con tu revisión técnica?",
+            content: "Estimado (a) cliente buen día, le saluda Jordy Merejildo de Autonort TOYOTA  ¿Cómo podemos ayudarte",
         },
     ]);
     const [input, setInput] = useState("");
@@ -224,7 +224,7 @@ export default function ChatSupport() {
     return (
         <ExpandableChat size="md" position="bottom-right">
             <ExpandableChatHeader className="bg-muted/60 flex-col text-center justify-center">
-                <h1 className="text-xl font-semibold">🔧Asesor Virtual de Revisiones Técnicas🚗</h1>
+                <h1 className="text-xl font-semibold">Autonort Virtual🚗</h1>
                 <div className="flex gap-2 items-center pt-2">
                     <Button variant="secondary" onClick={startNewChat}>
                         Nueva Consulta
